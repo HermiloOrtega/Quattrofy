@@ -1,9 +1,40 @@
 # 📊 Quattrofy
 
+---
+
 ## 🧭 Overview
 **Quattrofy** is a robust enterprise-grade web application built for **Quattro Constructors**, designed to centralize reporting, operations, and project insights across departments. Developed in **C#** using **ASP.NET MVC**, hosted on **Microsoft Azure**, and integrated with an **Azure SQL Database**, Quattrofy is actively maintained and expanded as part of the company’s digital transformation initiative.
 
 Originally conceived to automate the generation of LEM (Labour, Equipment, and Materials) reports by pulling data from HeavyJob via Open API, it has evolved into a powerful internal platform supporting various modules for employees, equipment, procurement, forecasting, dashboards, and more.
+
+### Vision
+![Screenshot](./assets/1.jpg)
+
+### Modules
+![Screenshot](./assets/2.jpg)
+
+### Employees
+![Screenshot](./assets/3.jpg)
+
+### Forecast
+![Screenshot](./assets/7.jpg)
+
+### Projects
+![Screenshot](./assets/11.jpg)
+
+### Reports
+![Screenshot](./assets/15.jpg)
+
+### LEM
+![Screenshot](./assets/16.jpg)
+
+### Labour and Productivity Report
+![Screenshot](./assets/18.jpg)
+
+### Job Cost Variance
+![Screenshot](./assets/20.jpg)
+
+---
 
 ## ✨ Features & Functionality
 - **LEM Report**: Dynamic grid of employees and equipment by timecard, job site, cost code, and notes with sign-off flow.
@@ -38,6 +69,8 @@ Originally conceived to automate the generation of LEM (Labour, Equipment, and M
   - API Sync & Permissions
 - **Profile Page**: User photo and profile management.
 
+---
+
 ## ⚙️ Tech Stack
 | **Category**             | **Tools & Technologies** |
 |--------------------------|--------------------------|
@@ -55,6 +88,8 @@ Originally conceived to automate the generation of LEM (Labour, Equipment, and M
 | **DevOps & Version Control** | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D4?style=for-the-badge&logo=azuredevops&logoColor=white) |
 | **Project Management**   | ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) |
 
+---
+
 ## 🏗 Architecture & Deployment
 
 - **Frontend**: ASP.NET MVC Views with Razor, HTML, CSS, JavaScript, jQuery
@@ -64,6 +99,8 @@ Originally conceived to automate the generation of LEM (Labour, Equipment, and M
 - **Authentication**: Microsoft Identity with role-permission mapping
 - **Monitoring**: Azure Application Insights (planned)
 
+---
+
 ## 🚀 Deployment & Access
 
 - Hosted in Azure Web Services
@@ -72,16 +109,22 @@ Originally conceived to automate the generation of LEM (Labour, Equipment, and M
 
 > Access restricted to internal corporate users with valid roles assigned.
 
+---
+
 ## 🔒 Security
 
 - All API calls secured via Power Automate and token-based authentication
 - Role-based access control per module
 - Deployment security hardening on Azure
 
+---
+
 ## 📌 Current Status
 
 - **Status**: Actively maintained and developed
 - **Version**: v1.x (multi-module)
+
+---
 
 ## 📈 Future Enhancements
 
