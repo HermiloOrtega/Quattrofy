@@ -107,8 +107,6 @@ Originally conceived to automate the generation of LEM (Labour, Equipment, and M
 - Staging and Production slots
 - App auto-start and monitoring enabled
 
-> Access restricted to internal corporate users with valid roles assigned.
-
 ---
 
 ## 🔒 Security
